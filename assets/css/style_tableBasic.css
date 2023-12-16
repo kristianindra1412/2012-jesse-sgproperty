@@ -1,0 +1,48 @@
+table {
+  margin		: auto;
+  text-align	: justify; 
+  font-size		: 12px;
+}
+table caption {
+  font-weight	: bold;
+  font-size		: 12pt;
+  width			: auto;
+  margin-bottom	: 25px;
+}
+table.tableBasic {
+  border-collapse	: collapse;
+}
+
+table.tableBasic th{
+  background-color	: lightgray;
+  text-align		: center;
+}
+
+.tr_selectable:hover {
+  background-color	: darkblue;
+  color				: white;
+  cursor 			: pointer;
+}
+
+.detailpageDetails {
+	width				: 100%;
+	border				: 2px solid #99CCBB;
+	border-radius		: 10px;
+	-moz-border-radius	: 10px; /* Firefox 3.6 and earlier */
+	-moz-box-shadow		: 0 0 5px #888;
+	-webkit-box-shadow	: 0 0 5px#888;
+	box-shadow			: 0 0 5px #888;
+}
+
+.agentProfileContainer {
+	width				: 800px;
+	border				: 2px solid #99CCBB;
+	border-radius		: 10px;
+	-moz-border-radius	: 10px; /* Firefox 3.6 and earlier */	
+}
+
+.tdAgentProfilePict {
+	width		: 200px;
+	text-align	: center;
+	padding		: 10 0 10 0;
+}

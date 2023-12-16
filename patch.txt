@@ -1,0 +1,195 @@
+-- JESSICA 24/11/2012
+
+assets
+css/style.css
+css/style_tableBasic.css
+
+application/controllers
+controllers/agents.php
+controllers/listed.php
+controllers/login.php
+
+application/core
+MY_Controller.php
+
+application/models
+rent_sell.php
+agent.php
+
+application/views
+agent/listpost.php
+agent/profile.php
+home/index.php
+listed/index.php
+
+patch
+04.sql
+
+-- END
+
+-- JESSICA 13/11/2012
+
+assets
+css/style.css
+css/style_tableBasic.css
+
+application/controllers
+controllers/agents.php
+controllers/home.php
+controllers/listed.php
+controllers/login.php
+controllers/posted.php
+controllers/search.php
+
+application/models
+rent_sell.php
+
+application/views
+login.php
+agent/profile.php
+agent/registed.php
+elements/footer.php
+elements/menu.php
+elements/top_header.php
+home/index.php
+listed/detail.php
+listed/index.php
+member/register.php
+posted/index.php
+posted/posting.php
+search/maps.php
+search/normal.php
+remove search/normal.html
+
+- END
+
+
+-- INDRA 12/11/2012
++assets/js/jQuery.js 				-> jQuery 1.7.1
++assets/js/scriptBasic.js 			-> Empty, reserved for future use
++assets/js/script_dropdownMenu.js 		-> Adding script for drop down menu
++assets/css/style.css 				-> Adding body font-family and table css
++assets/css/style_tableBasic.css 		-> Adding css for tableBasic
++assets/css/style_dropdownMenu.css 		-> Adding css for drop down menu
+
++application/controllers/search.php		-> Adjusting method for normal search
++application/controllers/agents.php		-> Adjusting method for register and registering
++application/controllers/member.php		-> Adjusting method for register and registering
++application/controllers/register.php		-> Adjusting method for register and registering
+
++application/models/mrt.php			-> Adding method drawCheckbox
++application/models/district.php		-> Adding method drawCheckbox
+
++application/views/elements/header.php 		-> Including js and style
++application/views/elements/menu.php		-> Adjusting for dropdown menu
+
++application/views/search/normal.php		-> Adjusting form
++application/views/login.php			-> Adjusting layout
++application/views/agent/			-> New folder
++application/views/agent/register.php		-> Register page for agent
++application/views/agent/registering.php	-> Page for finished registering
++application/views/member/			-> New folder
++application/views/member/register.php		-> Register page for member
++application/views/member/registering.php	-> Page for finished registering
+
+-- END
+
+-- JESSICA 29/10/2012
+application/controllers
+posted.php
+listed.php (for detail posted, see this controller)
+
+application/views
+listed folder
+element/menu.php
+home/index.php
+posted/index.php
+
+application/models
+rent_sell.php
+
+-- END
+
+-- INDRA 23/10/2012
+
+application/model/
++mrt.php -> adding method drawCombobox
++district.php -> adding method drawCombobox
+
+application/view/
+-agent/ -> delete agent folder, cause agent and owner is combined for login and register
++login.php -> new folder with the contents
++register/ -> new folder with the contents
++search/normal.php
++search/result.php
+
+application/controller/
++search.php
++register.php
++login.php
+
+assets/css/
++style.css -> adding table style
+
+-- END
+
+-- JESSICA 22/10/2012
+
+patch/03.sql
+
+-- END
+
+-- JESSICA 20/10/2012
+
+application/controller
+home.php
+
+application/helper
+format_helper.php
+
+application/models
+rent_sell.php
+
+application/views
+home/index.php
+
+-- END
+
+-- JESSICA 04/10/2012
+
+assets/images folder (all) remove image (without s) folder
+
+assets/css/style.css
+
+application/controller
+posted.php
+
+application/models ===> do u cut all these files? in ftp empty again, but I think I just change rent_sell.php from last update
+area.php, district.php, mrt.php, property_type.php, rent_sell.php
+
+application/views
+elements folder (all)
+home/index.php
+layouts/default.php
+posted/posting.php
+
+patch
+02.sql
+
+-- END
+
+-- JESSICA 28/09/2012
+
+controller
+home.php, posted.php, search.php
+
+models
+area.php, district.php, mrt.php, property_type.php, rent_sell.php
+
+views
+home/index.php, posted folder
+
+patch folder outside application
+01.sql
+
+-- END
